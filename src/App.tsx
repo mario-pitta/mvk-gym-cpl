@@ -9,6 +9,7 @@ import {
   MonitorSmartphone,
   Dumbbell
 } from 'lucide-react';
+import imgUrl from '../assets/mvk-gym-manager-logo.png';
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -25,7 +26,7 @@ interface PriceCardProps {
 
 function App() {
   const accentColor = '#2D8A5E'; // A more sophisticated, professional green
-  
+  const logo = 
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       {/* Hero Section */}
@@ -177,7 +178,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img 
-                src="mvk-gym-manager-logo.png" 
+                {src}="imgUrl" 
                 alt="MvK Gym Logo" 
                 className="w-12 h-12"
               />
