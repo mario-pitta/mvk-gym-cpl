@@ -166,9 +166,12 @@ function App() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Junte-se a centenas de academias que já estão usando nossa plataforma para crescer.
           </p>
+          <a href="https://wa.me/5571983982572?text=Olá, vim através da plataforma do mvk gym e quero conhecer mais detalhes do site e quero agendar uma demonstração." target="_blank">
+
           <button className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
             Agendar demonstração
           </button>
+          </a>
         </div>
       </section>
 
@@ -225,7 +228,7 @@ function PriceCard({ title, price, features, featured = false }: PriceCardProps)
           </li>
         ))}
       </ul>
-      <a href="https://wa.me/5571983982572?text=Olá, vim atrav´s do site e quero assinar a pltaforma." target="_blank">
+      <a href="https://wa.me/5571983982572?text=Olá, vim através da plataforma do mvk gym e quero conhecer mais detalhes do site e quero assinar a pltaforma." target="_blank">
       <button className={`
         w-full py-3 rounded-lg mt-8 font-semibold transition-colors
         ${featured 
