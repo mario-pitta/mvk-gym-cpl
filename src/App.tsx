@@ -178,7 +178,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img 
-                {src}="imgUrl" 
+                src={imgUrl}
                 alt="MvK Gym Logo" 
                 className="w-12 h-12"
               />
