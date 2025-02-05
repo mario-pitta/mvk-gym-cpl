@@ -26,7 +26,7 @@ interface PriceCardProps {
 
 function App() {
   const accentColor = '#2D8A5E'; // A more sophisticated, professional green
-  const logo = 
+  
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       {/* Hero Section */}
