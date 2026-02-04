@@ -188,7 +188,7 @@ function App() {
               <span className="text-xl font-bold">MvK Gym</span>
             </div>
             <div className="text-gray-400">
-              © 2024 MvK Devs. Todos os direitos reservados.
+              © {new Date().getFullYear()} MvK Devs. Todos os direitos reservados.
             </div>
           </div>
         </div>
